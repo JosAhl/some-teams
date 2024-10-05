@@ -65,18 +65,19 @@ a:hover {
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
-    /*text-align: center;*/
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .about-content {
     background-color: #fff;
+    grid-column-start: 2;
     padding: 0 3rem;
-    width: 30vw;
+}
 
+.about-content img {
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
