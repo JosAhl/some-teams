@@ -40,6 +40,8 @@ h1 {
 .grid-item {
     background-color: #fff;
     padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #aaa;
     align-self: center;
     text-align: center;
     height: 400px;
@@ -73,6 +75,8 @@ a:hover {
     background-color: #fff;
     grid-column-start: 2;
     padding: 0 3rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #aaa;
 }
 
 .about-content img {
