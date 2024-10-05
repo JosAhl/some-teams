@@ -16,7 +16,7 @@ $title = "Some Teams";
     <header class="header">
         <h1><?= $title ?></h1>
         <nav>
-            <a href="start.php">Start</a>
+            <a href="index.php">Start</a>
             <a href="about.php">About</a>
         </nav>
     </header>
