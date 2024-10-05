@@ -12,8 +12,8 @@ include __DIR__ . "/data.php";
                 <h2><a href="<?= $teamDetails['url']; ?>"><?= $teamName; ?></a></h2>
                 <img src="<?= $teamDetails['logo']; ?>" alt="<?= $teamName; ?> logo">
                 <p><strong>League:</strong> <?= $teamDetails['league']; ?></p>
-                <p><strong>UEFA Coefficient Ranking:</strong> <?= $teamDetails['uefa-coefficient-ranking']; ?></p>
                 <p><strong>City:</strong> <?= $teamDetails['city']; ?></p>
+                <p><strong>UEFA Ranking:</strong> <?= $teamDetails['uefa-coefficient-ranking']; ?></p>
                 <p><strong>Group:</strong> <?= $teamDetails['group']; ?></p>
             </article>
         <?php endforeach; ?>

@@ -5,7 +5,7 @@
 @import url(//https://fonts.googleapis.com/css?family=Poppins);
 
 body {
-    background-color: #eee;
+    background-color: #ccc;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -53,6 +53,15 @@ h1 {
     width: 50%;
     height: 50%;
     object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;    
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .about {
