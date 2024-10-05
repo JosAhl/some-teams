@@ -9,10 +9,19 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-header {
+.header {
+    display: flex;
+    flex-direction: column;
     align-content: center;
     text-align: center;
     padding-bottom: 1rem;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 6em;
 }
 
 h1 {
