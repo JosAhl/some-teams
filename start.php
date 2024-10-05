@@ -19,9 +19,6 @@ include __DIR__ . "/data.php";
         <?php endforeach; ?>
     </div>
 </main>
-</body>
-
-</html>
 
 <?php
 require_once __DIR__ . "/footer.php";

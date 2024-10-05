@@ -1,4 +1,7 @@
 <footer>
     <p>JosAhl</p>
-    <?= date('Y/m/d') ?>
+    <p><?= date('Y/m/d') ?></p>
 </footer>
+</body>
+
+</html>

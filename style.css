@@ -42,3 +42,9 @@ img {
     height: 50%;
     object-fit: contain;
 }
+
+footer {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
