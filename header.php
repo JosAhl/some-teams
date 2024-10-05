@@ -10,4 +10,8 @@
 <body>
     <header>
         <h1>Some Teams</h1>
+        <nav>
+            <a href="start.php">Start</a>
+            <a href="about.php">About</a>
+        </nav>
     </header>
