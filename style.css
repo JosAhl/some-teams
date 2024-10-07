@@ -73,6 +73,8 @@ h1 {
     width: 50%;
     height: 50%;
     object-fit: contain;
+    opacity:0.5;
+    transition: 1s ease;
 }
 
 a {
@@ -80,8 +82,10 @@ a {
     color: inherit;    
 }
 
-a:hover {
+a:hover, .grid-item img:hover {
     transform: scale(1.05);
+    opacity:1;
+    transition: 1s ease;
 }
 
 .about {
