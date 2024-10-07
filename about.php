@@ -11,8 +11,14 @@ require_once __DIR__ . "/header.php";
         <p>However, I'm here to display information, not to ask questions.<br><br>
             I'm a developer in the early making who got this assignment mainly to improve my workflow regarding GitHub, deployment and coding.<br><br>
             I am enthusiastic and willing to keep learning and have high ambition while maintaining achievable goals.</p>
+        <div class="contact-links">
+            <a href="https://github.com/JosAhl"><img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="Github Icon" /></a>
+            <a href="mailto:josefineahlstrand@live.se"><img src="https://img.icons8.com/?size=100&id=124379&format=png&color=000000" alt="Email Icon" /></a>
+        </div>
     </article>
 </main>
+
+
 
 <?php
 require_once __DIR__ . "/footer.php";
