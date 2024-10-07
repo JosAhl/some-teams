@@ -105,5 +105,5 @@ a:hover {
 footer {
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
