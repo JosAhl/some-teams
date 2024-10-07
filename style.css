@@ -24,6 +24,10 @@ body {
     width: 6em;
 }
 
+.header a:hover {
+    transform: scale(1.1);
+}
+
 h1 {
     color: #fff;
     font-size: 4rem;
@@ -63,29 +67,49 @@ h1 {
     align-self: center;
     text-align: center;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s ease;
 }
 
 .grid-item p {
     margin: 0.5rem;
 }
 
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+.grid-link:hover img {
+    opacity: 1;
+    transition: 1s ease;
+}
+
 .grid-item img {
     width: 50%;
     height: 50%;
     object-fit: contain;
-    opacity:0.5;
-    transition: 1s ease;
+    opacity:0.8;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.grid-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
+.grid-link:hover img {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 a {
     text-decoration: none;
     color: inherit;    
-}
-
-a:hover, .grid-item img:hover {
-    transform: scale(1.05);
-    opacity:1;
-    transition: 1s ease;
 }
 
 .about {
