@@ -4,7 +4,7 @@ require_once __DIR__ . "/header.php";
 include __DIR__ . "/data.php";
 
 ?>
-
+<!------------MAIN CONTENT: START------------>
 <main>
     <div class="grid-container">
         <?php foreach ($teams as $teamName => $teamDetails): ?>

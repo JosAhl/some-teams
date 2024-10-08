@@ -2,7 +2,7 @@
 require_once __DIR__ . "/header.php";
 
 ?>
-
+<!------------MAIN CONTENT: ABOUT------------>
 <main class="about">
     <article class="about-content">
         <p>My name is Josefine and I was assigned to design this webpage.<br><br>

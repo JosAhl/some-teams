@@ -14,6 +14,8 @@ a {
     color: inherit;    
 }
 
+/* ----- HEADER ----- */
+
 .header {
     display: flex;
     flex-direction: column;
@@ -30,7 +32,7 @@ a {
 }
 
 .header a:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); /* ----- nav links slight hover effect ----- */
 }
 
 h1 {
@@ -40,9 +42,11 @@ h1 {
     margin: 0.5rem;
 }
 
+/* ----- MAIN CONTENT ----- */
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, minmax(300px, 1fr)); /* ----- maximum 4 columns on grid ----- */
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 10px 10px;
 }
@@ -59,7 +63,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: transform 1s ease;
+    transition: transform 1s ease; /* ----- smooth transition before and after hover ----- */
 }
 
 .grid-item p {
@@ -78,18 +82,20 @@ h1 {
     height: 50%;
     object-fit: contain;
     opacity:0.8;
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease; /* ----- smooth transition before and after hover ----- */
 }
 
-.grid-item:hover {
+.grid-item:hover { /* ----- grid cell hover effect ----- */
     transform: scale(1.05);
 }
 
-.grid-link:hover img {
+.grid-link:hover img { /* ----- logo hover effect ----- */
     opacity: 1;
     transition: 1s ease;
     transform: scale(1.1);
 }
+
+/* ----- ABOUT ----- */
 
 .about {
     display: grid;
@@ -126,11 +132,15 @@ h1 {
     transform: scale(1.1);
 }
 
+/* ----- FOOTER ----- */
+
 footer {
     color: #fff;
     display: flex;
     justify-content: center;
 }
+
+/* ----- MEDIA QUERIES ----- */
 
 @media (max-width: 1200px) {
     .grid-container {
