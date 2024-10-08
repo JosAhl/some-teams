@@ -57,17 +57,17 @@ h1 {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #aaa;
     align-self: center;
-    text-align: center;
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     transition: transform 1s ease; /* ----- smooth transition before and after hover ----- */
 }
 
 .grid-item p {
     margin: 0.5rem;
+    padding-left: 1rem;
+    align-self: flex-start;
 }
 
 .grid-link {
