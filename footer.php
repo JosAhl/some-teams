@@ -1,5 +1,5 @@
 <footer>
-    <p>Josefine Ahlstrand © <?= date('Y/m/d') ?></p>
+    <p>© <?= date('Y') ?> Josefine Ahlstrand</p>
 </footer>
 </body>
 
