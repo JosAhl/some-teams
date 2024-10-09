@@ -46,6 +46,7 @@ h1 {
 /* ----- MAIN CONTENT ----- */
 
 .grid-container {
+    margin: 1rem 5rem;
     display: grid;
     grid-template-columns: repeat(4, minmax(300px, 1fr)); /* ----- maximum 4 columns on grid ----- */
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -155,12 +156,14 @@ footer {
 
 @media (max-width: 900px) {
     .grid-container {
+        margin: 1rem 3rem;
         grid-template-columns: repeat(2, minmax(300px, 1fr)); 
     }
 }
 
 @media (max-width: 600px) {
     .grid-container {
+        margin: 1rem 1rem;
         grid-template-columns: 1fr; 
     }
 }
